@@ -1,0 +1,49 @@
+.header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  height: 100%;
+}
+.header-section {
+  width: 100vmax;
+  height: 60px;
+  background-color: rgb(51, 115, 115);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+.header-empty {
+  position: relative;
+  color: black;
+  font-size: 20px;
+}
+.header-empty::after {
+  position: relative;
+  content: "No burgers in the basket";
+  font-size: 20px;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.counter {
+  position: relative;
+  bottom: 120%;
+  left: 100%;
+  background-color: #7fd565;
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.link {
+  color: #000;
+}
+
+.active {
+  color: #f87731;
+}/*# sourceMappingURL=Header.css.map */

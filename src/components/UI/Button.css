@@ -1,0 +1,16 @@
+.btn-icon {
+  height: 60%;
+  width: 3%;
+  transition: all 0.3s;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+.btn-icon:hover {
+  transform: scale(1.2);
+}
+
+.icon {
+  height: 100%;
+  width: 100%;
+} /*# sourceMappingURL=Button.css.map */

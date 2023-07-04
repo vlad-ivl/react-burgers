@@ -1,0 +1,80 @@
+.order {
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+.order-burger {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.order-burger-name-with-trash {
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
+.order-burger-delete-icon {
+  width: 30px;
+  height: 30px;
+  color: rgb(126, 1, 1);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.order-burger-delete-icon:hover {
+  transform: scale(1.1);
+}
+.order-burger-name {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.order-burger-ingredients-list {
+  margin-bottom: 40px;
+}
+.order-burger-img {
+  max-width: 200px;
+  height: 100%;
+}
+.order-content {
+  margin: 0 auto;
+  width: 600px;
+  min-height: 200px;
+  padding: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  border-radius: 8px;
+  box-shadow: 0 0 3px #a4a4a4;
+  background-color: #ffffff;
+}
+.order-title {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.order-btn-block {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  align-items: center;
+}
+
+.orderBtnGroup {
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  transition: all 0.3s;
+}
+.orderBtnGroup:hover {
+  transform: scale(1.05);
+}
+
+.makeOrderBtn {
+  background: linear-gradient(to left, rgb(91, 206, 187), rgb(51, 115, 115));
+}
+
+.addBurgersBtn {
+  background: linear-gradient(to left, rgb(206, 173, 91), rgb(242, 68, 83));
+}/*# sourceMappingURL=Order.css.map */

@@ -1,0 +1,73 @@
+.ready-burger-wrap {
+  margin-top: 20px;
+  display: flex;
+  //   border: 1px solid black;
+  //   width: min-content;
+  //   border-radius: 8px;
+  justify-content: center;
+  border-bottom: 1px solid black;
+  width: min-content;
+}
+
+.ready-burger-name {
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.readyOrders {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  width: 600px;
+  height: min-content;
+  margin-top: 20px;
+  box-shadow: 0 0 4px;
+  &-img {
+    width: 30%;
+  }
+  //   &-burgerName {
+  //   }
+}
+
+.placedOrdersSection {
+  display: flex;
+  justify-content: start;
+  padding-top: 50px;
+  gap: 100px;
+  padding-bottom: 50px;
+}
+.placedOrdersList {
+  display: flex;
+  justify-content: space-around;
+  gap: 100px;
+  align-items: center;
+}
+.placedOrdersList-block {
+  box-shadow: 0 0 1px;
+  border-radius: 8px;
+  width: max-content;
+  min-height: 70vmin;
+  padding: 10px;
+  margin-top: 20px;
+
+  margin-left: 10px;
+  background: linear-gradient(
+    to left,
+    rgba(51, 115, 115, 0.5),
+    rgb(51, 115, 115)
+  );
+  transition: all 1s;
+}
+
+.active-order-btn {
+  font-size: 30px;
+  border: none;
+  background-color: transparent;
+  &:focus {
+    color: #f87731;
+  }
+}
+
+.readyOrders {
+  padding: 10px 0px 10px 10px;
+}

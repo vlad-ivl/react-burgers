@@ -1,0 +1,41 @@
+.modalOrder {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+.modalOrder-content {
+  width: 350px;
+  height: 500px;
+  background: linear-gradient(to left top, rgb(213, 71, 39), rgb(151, 126, 25));
+  border-radius: 8px;
+  padding: 50px;
+  text-align: center;
+  color: #ffffff;
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.modalOrder-btn {
+  margin-top: 30px;
+  border: none;
+  border-radius: 8px;
+  width: 150px;
+  height: 40px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 300;
+  background-color: rgb(109, 96, 2);
+  transition: all 0.5s;
+  cursor: pointer;
+  box-shadow: 0 0 6px black;
+}
+.modalOrder-btn:hover {
+  background-color: rgb(139, 124, 11);
+}/*# sourceMappingURL=ModalOrder.css.map */

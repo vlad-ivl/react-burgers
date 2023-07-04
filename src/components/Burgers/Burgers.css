@@ -1,0 +1,15 @@
+.form {
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+}
+.form-input {
+  height: 20px;
+  width: 20%;
+  padding-left: 10px;
+}
+
+.burgers-block {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=Burgers.css.map */
